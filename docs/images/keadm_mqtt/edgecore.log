@@ -1,0 +1,162 @@
+5月 21 04:09:36 edge01 edgecore[70539]: I0521 04:09:36.986530   70539 server.go:74] Version: v1.12.2
+5月 21 04:09:36 edge01 edgecore[70539]: I0521 04:09:36.993361   70539 server.go:101] Use node IP address from config: 192.168.95.130
+5月 21 04:09:36 edge01 edgecore[70539]: I0521 04:09:36.993449   70539 sql.go:21] Begin to register twin db model
+5月 21 04:09:36 edge01 edgecore[70539]: I0521 04:09:36.993827   70539 module.go:52] Module twin registered successfully
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.016128   70539 module.go:52] Module edged registered successfully
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.016159   70539 module.go:52] Module websocket registered successfully
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.016165   70539 module.go:52] Module eventbus registered successfully
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.016215   70539 metamanager.go:41] Begin to register metamanager db model
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.016245   70539 module.go:52] Module metamanager registered successfully
+5月 21 04:09:37 edge01 edgecore[70539]: W0521 04:09:37.016250   70539 module.go:55] Module servicebus is disabled, do not register
+5月 21 04:09:37 edge01 edgecore[70539]: W0521 04:09:37.016258   70539 module.go:55] Module edgestream is disabled, do not register
+5月 21 04:09:37 edge01 edgecore[70539]: W0521 04:09:37.016262   70539 module.go:55] Module testManager is disabled, do not register
+5月 21 04:09:37 edge01 edgecore[70539]: table `device` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `device_attr` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `device_twin` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `sub_topics` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `meta` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `meta_v2` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: table `target_urls` already exists, skip
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.020287   70539 core.go:46] starting module edged
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.020728   70539 core.go:46] starting module websocket
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.020906   70539 core.go:46] starting module eventbus
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.020989   70539 core.go:46] starting module metamanager
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.021672   70539 core.go:46] starting module twin
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.022626   70539 edged.go:104] Starting edged...
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.022686   70539 process.go:117] Begin to sync sqlite
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.022678   70539 server.go:397] "Kubelet version" kubeletVersion="v0.0.0-master+$Format:%H$"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.023936   70539 dmiworker.go:67] dmi worker start
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024685   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024700   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024872   70539 dmiworker.go:215] success to init device model info from db
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024912   70539 dmiworker.go:235] success to init device info from db
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024933   70539 dmiworker.go:255] success to init device mapper info from db
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.024946   70539 server.go:183] init uds socket: /etc/kubeedge/dmi.sock
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.026918   70539 certmanager.go:161] Certificate rotation is enabled.
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.026986   70539 websocket.go:51] Websocket start to connect Access
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033119   70539 ws.go:46] dial wss://192.168.95.134:10000/e632aba927ea4ac2b575ec1603d56f10/edge01/events successfully
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033208   70539 websocket.go:93] Websocket connect to cloud access successful
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033439   70539 process.go:461] node connection event occur: cloud_connected
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033624   70539 process.go:461] node connection event occur: cloud_connected
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033743   70539 process.go:299] DeviceTwin receive msg
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.033765   70539 process.go:68] Send msg to the CommModule module in twin
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067143   70539 server.go:445] "No api server defined - no events will be sent to API server"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067175   70539 server.go:612] "--cgroups-per-qos enabled, but --cgroup-root was not specified.  defaulting to /"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067427   70539 container_manager_linux.go:280] "Container manager verified user specified cgroup-root exists" cgroupRoot=[]
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067505   70539 container_manager_linux.go:285] "Creating Container Manager object based on Node Config" nodeConfig={RuntimeCgroupsName: SystemCgroupsName: KubeletCgroupsName: ContainerRuntime:remote CgroupsPerQOS:true CgroupRoot:/ CgroupDriver:cgroupfs KubeletRootDir:/var/lib/edged ProtectKernelDefaults:false NodeAllocatableConfig:{KubeReservedCgroupName: SystemReservedCgroupName: ReservedSystemCPUs: EnforceNodeAllocatable:map[pods:{}] KubeReserved:map[] SystemReserved:map[] HardEvictionThresholds:[{Signal:memory.available Operator:LessThan Value:{Quantity:100Mi Percentage:0} GracePeriod:0s MinReclaim:<nil>} {Signal:nodefs.available Operator:LessThan Value:{Quantity:<nil> Percentage:0.1} GracePeriod:0s MinReclaim:<nil>} {Signal:nodefs.inodesFree Operator:LessThan Value:{Quantity:<nil> Percentage:0.05} GracePeriod:0s MinReclaim:<nil>} {Signal:imagefs.available Operator:LessThan Value:{Quantity:<nil> Percentage:0.15} GracePeriod:0s MinReclaim:<nil>}]} QOSReserved:map[] ExperimentalCPUManagerPolicy:none ExperimentalCPUManagerPolicyOptions:map[] ExperimentalTopologyManagerScope:container ExperimentalCPUManagerReconcilePeriod:10s ExperimentalMemoryManagerPolicy:None ExperimentalMemoryManagerReservedMemory:[] ExperimentalPodPidsLimit:-1 EnforceCPULimits:true CPUCFSQuotaPeriod:100ms ExperimentalTopologyManagerPolicy:none}
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067545   70539 topology_manager.go:133] "Creating topology manager with policy per scope" topologyPolicyName="none" topologyScopeName="container"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067569   70539 container_manager_linux.go:320] "Creating device plugin manager" devicePluginEnabled=true
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.067897   70539 state_mem.go:36] "Initialized new in-memory state store"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.071312   70539 kuberuntime_manager.go:245] "Container runtime initialized" containerRuntime="iSulad" version="2.0.17" apiVersion="2.0.17"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.071960   70539 server.go:974] "Started kubelet"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.072217   70539 server.go:173] "Starting to listen read-only" address="127.0.0.1" port=10350
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.073339   70539 server.go:389] "Adding debug handlers to kubelet server"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.073443   70539 fs_resource_analyzer.go:67] "Starting FS ResourceAnalyzer"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.074599   70539 cri_stats_provider.go:372] "Failed to get the info of the filesystem with mountpoint" err="unable to find data in memory cache" mountpoint="/var/lib/isulad/storage/overlay-images"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.074620   70539 kubelet.go:1224] "Image garbage collection failed once. Stats initialization may not have completed yet" err="invalid capacity 0 on image filesystem"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.074685   70539 volume_manager.go:291] "Starting Kubelet Volume Manager"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.074853   70539 desired_state_of_world_populator.go:146] "Desired state populator starts to run"
+5月 21 04:09:37 edge01 edgecore[70539]: W0521 04:09:37.110579   70539 container.go:586] Failed to update stats for container "/system.slice/edgecore.service": /sys/fs/cgroup/cpuset/system.slice/edgecore.service/cpuset.cpus found to be empty, continuing to push stats
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.134788   70539 kubelet_network_linux.go:56] "Initialized protocol iptables rules." protocol=IPv4
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172181   70539 cpu_manager.go:209] "Starting CPU manager" policy="none"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172202   70539 cpu_manager.go:210] "Reconciling" reconcilePeriod="10s"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172217   70539 state_mem.go:36] "Initialized new in-memory state store"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172334   70539 state_mem.go:88] "Updated default CPUSet" cpuSet=""
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172349   70539 state_mem.go:96] "Updated CPUSet assignments" assignments=map[]
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.172354   70539 policy_none.go:49] "None policy: Start"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.174223   70539 memory_manager.go:168] "Starting memorymanager" policy="None"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.174268   70539 state_mem.go:35] "Initializing new in-memory state store"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.174439   70539 state_mem.go:75] "Updated machine memory state"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.174993   70539 kubelet_network_linux.go:56] "Initialized protocol iptables rules." protocol=IPv6
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.175006   70539 status_manager.go:158] "Starting to sync pod status with apiserver"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.175087   70539 kubelet.go:1807] "Starting kubelet main sync loop"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.175291   70539 kubelet.go:1831] "Skipping pod synchronization" err="[container runtime status check may not have completed yet, PLEG is not healthy: pleg has yet to be successful]"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.175358   70539 manager.go:609] "Failed to read data from checkpoint" checkpoint="kubelet_internal_checkpoint" err="checkpoint is not found"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.175802   70539 plugin_manager.go:114] "Starting Kubelet Plugin Manager"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.181378   70539 kubelet_node_status.go:69] "Attempting to register node" node="edge01"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.191926   70539 imitator.go:235] failed to unmarshal message content to unstructured obj: Object 'Kind' is missing in '{"metadata":{"name":"edge01","creationTimestamp":null,"labels":{"beta.kubernetes.io/arch":"amd64","beta.kubernetes.io/os":"linux","kubernetes.io/arch":"amd64","kubernetes.io/hostname":"edge01","kubernetes.io/os":"linux","node-role.kubernetes.io/agent":"","node-role.kubernetes.io/edge":""},"annotations":{"volumes.kubernetes.io/controller-managed-attach-detach":"true"}},"spec":{},"status":{"capacity":{"cpu":"4","ephemeral-storage":"16631632Ki","hugepages-1Gi":"0","hugepages-2Mi":"0","memory":"3665328Ki","pods":"110"},"allocatable":{"cpu":"4","ephemeral-storage":"15327712026","hugepages-1Gi":"0","hugepages-2Mi":"0","memory":"3562928Ki","pods":"110"},"conditions":[{"type":"MemoryPressure","status":"False","lastHeartbeatTime":"2023-05-20T20:09:37Z","lastTransitionTime":"2023-05-20T20:09:37Z","reason":"KubeletHasSufficientMemory","message":"kubelet has sufficient memory available"},{"type":"DiskPressure","status":"False","lastHeartbeatTime":"2023-05-20T20:09:37Z","lastTransitionTime":"2023-05-20T20:09:37Z","reason":"KubeletHasNoDiskPressure","message":"kubelet has no disk pressure"},{"type":"PIDPressure","status":"False","lastHeartbeatTime":"2023-05-20T20:09:37Z","lastTransitionTime":"2023-05-20T20:09:37Z","reason":"KubeletHasSufficientPID","message":"kubelet has sufficient PID available"},{"type":"Ready","status":"True","lastHeartbeatTime":"2023-05-20T20:09:37Z","lastTransitionTime":"2023-05-20T20:09:37Z","reason":"EdgeReady","message":"edge is posting ready status"}],"addresses":[{"type":"InternalIP","address":"192.168.95.130"},{"type":"Hostname","address":"edge01"}],"daemonEndpoints":{"kubeletEndpoint":{"Port":10350}},"nodeInfo":{"machineID":"bb09f0ba98f345a09dfb36de9df3f132","systemUUID":"6b4e4d56-6fc5-4648-e75a-a48017471ac2","bootID":"dccf0862-0493-44ce-ba84-6d2c4340aed7","kernelVersion":"5.10.0-60.94.0.118.oe2203.x86_64","osImage":"openEuler 22.03 LTS","containerRuntimeVersion":"iSulad://2.0.17","kubeletVersion":"v1.22.6-kubeedge-v1.12.2","kubeProxyVersion":"v0.0.0-master+$Format:%H$","operatingSystem":"linux","architecture":"amd64"},"images":[{"names":["kubeedge/installation-package@sha256:d1a8b855cb8f01454232ef7ec4544f4c169bf5d5363ae74f2818964b13cb7a58","kubeedge/installation-package:v1.12.2"],"sizeBytes":201102857},{"names":["kubeedge/installation-package@sha256:1740f81e2f1ecff5729928a3c2534df549031d2b246fc0e1b0bc21a9dcca4462","kubeedge/installation-package:v1.12.1"],"sizeBytes":201078205},{"names":["k8s.gcr.io/kube-proxy@sha256:d33e7f7f7945f6008cba6a8b333f6794cc4661f9534b441d87de9b9b79c32e60","k8s.gcr.io/kube-proxy:v1.21.0"],"sizeBytes":122239756},{"names":["flannel/flannel@sha256:f586f01169a672529787a161e09dce5d76adf9bfa5112218efb59678a6fd7506","flannel/flannel:v0.21.5"],"sizeBytes":68856304},{"names":["eclipse-mosquitto@sha256:abc6b06c4b65adca0d1330e6ef58f795c77c22a0229ba8e465014acfaab451b3","eclipse-mosquitto:1.6.15"],"sizeBytes":11561859},{"names":["flannel/flannel-cni-plugin@sha256:fa5424690a69f837c0e1b4041b9df94fdac192a562335e9ccb0fc570ddf8f972","flannel/flannel-cni-plugin:v1.1.2"],"sizeBytes":7963587},{"names":["kubeedge/pause@sha256:fcaff905397ba63fd376d0c3019f1f1cb6e7506131389edbcb3d22719f1ae54d","kubeedge/pause:3.1"],"sizeBytes":744607}]}}'
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.195246   70539 kuberuntime_manager.go:1078] "Updating runtime config through cri with podcidr" CIDR="10.244.1.0/24"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.195919   70539 kubelet_network.go:62] "Updating Pod CIDR" originalPodCIDR="" newPodCIDR="10.244.1.0/24"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.213672   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:09:37 edge01 edgecore[70539]: E0521 04:09:37.215976   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.222443   70539 kubelet_node_status.go:107] "Node was previously registered" node="edge01"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.222485   70539 kubelet_node_status.go:273] "Controller attach-detach setting changed to true; updating existing Node"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.275427   70539 pod_container_deletor.go:79] "Container not found in pod's containers" containerID="32ade905b4153180eb68d1637bff8ea065826a51a90e51284e5d1ea1cce4daa5"
+5月 21 04:09:37 edge01 edgecore[70539]: I0521 04:09:37.275508   70539 pod_container_deletor.go:79] "Container not found in pod's containers" containerID="4965bce8b17cfe706993003b604ff9ee3aa39fcf2efc93716b638d5c3184cd3d"
+5月 21 04:09:40 edge01 edgecore[70539]: E0521 04:09:40.122405   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:09:45 edge01 edgecore[70539]: I0521 04:09:45.122628   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:09:45 edge01 edgecore[70539]: I0521 04:09:45.122662   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:09:47 edge01 edgecore[70539]: I0521 04:09:47.162499   70539 reconciler.go:157] "Reconciler: start to sync state"
+5月 21 04:09:47 edge01 edgecore[70539]: E0521 04:09:47.245860   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:09:47 edge01 edgecore[70539]: E0521 04:09:47.245969   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:09:48 edge01 edgecore[70539]: E0521 04:09:48.187252   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:09:53 edge01 edgecore[70539]: I0521 04:09:53.188737   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:09:53 edge01 edgecore[70539]: I0521 04:09:53.188798   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:09:56 edge01 edgecore[70539]: E0521 04:09:56.250712   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:09:57 edge01 edgecore[70539]: E0521 04:09:57.275789   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:09:57 edge01 edgecore[70539]: E0521 04:09:57.275874   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:10:01 edge01 edgecore[70539]: I0521 04:10:01.251409   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:01 edge01 edgecore[70539]: I0521 04:10:01.251468   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:04 edge01 edgecore[70539]: E0521 04:10:04.315321   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:07 edge01 edgecore[70539]: E0521 04:10:07.300741   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:10:07 edge01 edgecore[70539]: E0521 04:10:07.300821   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:10:09 edge01 edgecore[70539]: I0521 04:10:09.316594   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:09 edge01 edgecore[70539]: I0521 04:10:09.316638   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:12 edge01 edgecore[70539]: E0521 04:10:12.379099   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:17 edge01 edgecore[70539]: E0521 04:10:17.329275   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:10:17 edge01 edgecore[70539]: E0521 04:10:17.330296   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:10:17 edge01 edgecore[70539]: I0521 04:10:17.379434   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:17 edge01 edgecore[70539]: I0521 04:10:17.379549   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:20 edge01 edgecore[70539]: E0521 04:10:20.442112   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:25 edge01 edgecore[70539]: I0521 04:10:25.442397   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:25 edge01 edgecore[70539]: I0521 04:10:25.442435   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:27 edge01 edgecore[70539]: E0521 04:10:27.360940   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:10:27 edge01 edgecore[70539]: E0521 04:10:27.361024   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:10:28 edge01 edgecore[70539]: E0521 04:10:28.506169   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:33 edge01 edgecore[70539]: I0521 04:10:33.507313   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:33 edge01 edgecore[70539]: I0521 04:10:33.507366   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:36 edge01 edgecore[70539]: E0521 04:10:36.569809   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:37 edge01 edgecore[70539]: I0521 04:10:37.080431   70539 scope.go:110] "RemoveContainer" containerID="32ade905b4153180eb68d1637bff8ea065826a51a90e51284e5d1ea1cce4daa5"
+5月 21 04:10:37 edge01 edgecore[70539]: E0521 04:10:37.082732   70539 kuberuntime_gc.go:146] "Failed to remove container" err="failed to remove container \"32ade905b4153180eb68d1637bff8ea065826a51a90e51284e5d1ea1cce4daa5\" log \"boot\": remove boot: device or resource busy" containerID="32ade905b4153180eb68d1637bff8ea065826a51a90e51284e5d1ea1cce4daa5"
+5月 21 04:10:37 edge01 edgecore[70539]: E0521 04:10:37.236795   70539 metaclient.go:117] send sync message default/nodepatch/edge01 failed, error:timeout to get response for message dcbf0131-1397-4153-b773-92888d97d1a1, retries: 1
+5月 21 04:10:37 edge01 edgecore[70539]: E0521 04:10:37.387121   70539 cadvisor_stats_provider.go:415] "Partial failure issuing cadvisor.ContainerInfoV2" err="partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]"
+5月 21 04:10:37 edge01 edgecore[70539]: E0521 04:10:37.387191   70539 summary_sys_containers.go:47] "Failed to get system container stats" err="failed to get cgroup stats for \"/system.slice/edgecore.service\": failed to get container info for \"/system.slice/edgecore.service\": partial failures: [\"/system.slice/edgecore.service\": RecentStats: unable to find data in memory cache]" containerName="/system.slice/edgecore.service"
+5月 21 04:10:41 edge01 edgecore[70539]: I0521 04:10:41.572347   70539 common.go:97] start connect to mqtt server with client id: hub-client-sub-1684613377
+5月 21 04:10:41 edge01 edgecore[70539]: I0521 04:10:41.572476   70539 common.go:99] client hub-client-sub-1684613377 isconnected: false
+5月 21 04:10:44 edge01 edgecore[70539]: E0521 04:10:44.633942   70539 common.go:101] connect error: Network Error : dial tcp 127.0.0.1:1883: connect: no route to host
+5月 21 04:10:45 edge01 systemd[1]: Stopping edgecore.service...
+░░ Subject: edgecore.service 单元已开始停止操作
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ edgecore.service 单元已开始停止操作。
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815565   70539 core.go:56] Get os signal terminated
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815584   70539 core.go:62] Cleanup module twin
+5月 21 04:10:45 edge01 edgecore[70539]: W0521 04:10:45.815608   70539 process.go:329] Stop DeviceTwin ModulesHealth load loop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815617   70539 dtcontext.go:66] MemModule stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815623   70539 dtcontext.go:66] CommModule stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815628   70539 dtcontext.go:66] DMIModule stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815632   70539 dtcontext.go:66] TwinModule stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.815649   70539 dtcontext.go:66] DeviceModule stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.835754   70539 core.go:62] Cleanup module edged
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.835817   70539 process.go:299] DeviceTwin receive msg
+5月 21 04:10:45 edge01 edgecore[70539]: W0521 04:10:45.835824   70539 process.go:302] distributeMsg failed: not found action
+5月 21 04:10:45 edge01 edgecore[70539]: W0521 04:10:45.835846   70539 process.go:294] Stop DeviceTwin ModulesContext Receive loop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.855940   70539 core.go:62] Cleanup module websocket
+5月 21 04:10:45 edge01 edgecore[70539]: E0521 04:10:45.855989   70539 edged.go:189] failed to parse the Resource: resource:  format incorrect, or Operation:  is not query/response
+5月 21 04:10:45 edge01 edgecore[70539]: W0521 04:10:45.855998   70539 edged.go:177] Sync pod stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.876634   70539 core.go:62] Cleanup module eventbus
+5月 21 04:10:45 edge01 edgecore[70539]: W0521 04:10:45.876869   70539 process.go:141] EdgeHub RouteToCloud stop
+5月 21 04:10:45 edge01 edgecore[70539]: I0521 04:10:45.898344   70539 core.go:62] Cleanup module metamanager
+5月 21 04:10:45 edge01 systemd[1]: edgecore.service: Deactivated successfully.
+░░ Subject: Unit succeeded
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ The unit edgecore.service has successfully entered the 'dead' state.
+5月 21 04:10:45 edge01 systemd[1]: Stopped edgecore.service.
+░░ Subject: edgecore.service 单元已结束停止操作
+░░ Defined-By: systemd
+░░ Support: https://lists.freedesktop.org/mailman/listinfo/systemd-devel
+░░ 
+░░ edgecore.service 单元已结束停止操作。

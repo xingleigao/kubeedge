@@ -1,0 +1,353 @@
+Attaching 2 probes...
+/run/systemd/units/invocation:run-rb6e7b3db358341f38e30db170a67.. deleted by command 'systemd' with pid 1 
+	7f908cfce82b unlink+11 (/usr/lib64/libc.so.6)
+	55caee4d9ce3 0x55caee4d9ce3 ([unknown])
+	55caee4b257a 0x55caee4b257a ([unknown])
+	10000000a 0x10000000a ([unknown])
+	55caeeacfcc0 0x55caeeacfcc0 ([unknown])
+	55caeeab09a0 0x55caeeab09a0 ([unknown])
+	55caee45a1c0 0x55caee45a1c0 ([unknown])
+	9c7ee808ec8348fd 0x9c7ee808ec8348fd ([unknown])
+
+ ... whose parent is 'swapper/0' command with pid 0
+/run/systemd/transient/run-rb6e7b3db358341f38e30db170a67da67.sc.. deleted by command 'systemd' with pid 1 
+	7f908cfce82b unlink+11 (/usr/lib64/libc.so.6)
+	55caee49da95 0x55caee49da95 ([unknown])
+
+ ... whose parent is 'swapper/0' command with pid 0
+/etc/kubeedge/dmi.sock deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	e7d06c github.com/kubeedge/kubeedge/edge/pkg/devicetwin/dmiserver.initSock+300 (/usr/local/bin/edgecore)
+	e7d0ff github.com/kubeedge/kubeedge/edge/pkg/devicetwin/dmiserver.StartDMIServer+63 (/usr/local/bin/edgecore)
+	e83346 github.com/kubeedge/kubeedge/edge/pkg/devicetwin/dtmanager.DMIWorker.Start.dwrap.2+38 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubelet/device-plugins/kubelet.sock deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	4b988b os.removeAll+331 (/usr/local/bin/edgecore)
+	1a93445 k8s.io/kubernetes/pkg/kubelet/cm/devicemanager.(*ManagerImpl).removeContents+1125 (/usr/local/bin/edgecore)
+	1a93b28 k8s.io/kubernetes/pkg/kubelet/cm/devicemanager.(*ManagerImpl).Start+1096 (/usr/local/bin/edgecore)
+	1d7ef99 k8s.io/kubernetes/pkg/kubelet/cm.(*containerManagerImpl).Start+2489 (/usr/local/bin/edgecore)
+	201b8ce k8s.io/kubernetes/pkg/kubelet.(*Kubelet).initializeRuntimeDependentModules+526 (/usr/local/bin/edgecore)
+	2055aa6 k8s.io/kubernetes/pkg/kubelet.(*Kubelet).initializeRuntimeDependentModules-fm+38 (/usr/local/bin/edgecore)
+	47cd32 sync.(*Once).doSlow+210 (/usr/local/bin/edgecore)
+	20267db k8s.io/kubernetes/pkg/kubelet.(*Kubelet).updateRuntimeUp+987 (/usr/local/bin/edgecore)
+	2055a46 k8s.io/kubernetes/pkg/kubelet.(*Kubelet).updateRuntimeUp-fm+38 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201c40e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).Run.dwrap.8+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubelet/device-plugins/DEPRECATION deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	4b988b os.removeAll+331 (/usr/local/bin/edgecore)
+	1a93445 k8s.io/kubernetes/pkg/kubelet/cm/devicemanager.(*ManagerImpl).removeContents+1125 (/usr/local/bin/edgecore)
+	1a93b28 k8s.io/kubernetes/pkg/kubelet/cm/devicemanager.(*ManagerImpl).Start+1096 (/usr/local/bin/edgecore)
+	1d7ef99 k8s.io/kubernetes/pkg/kubelet/cm.(*containerManagerImpl).Start+2489 (/usr/local/bin/edgecore)
+	201b8ce k8s.io/kubernetes/pkg/kubelet.(*Kubelet).initializeRuntimeDependentModules+526 (/usr/local/bin/edgecore)
+	2055aa6 k8s.io/kubernetes/pkg/kubelet.(*Kubelet).initializeRuntimeDependentModules-fm+38 (/usr/local/bin/edgecore)
+	47cd32 sync.(*Once).doSlow+210 (/usr/local/bin/edgecore)
+	20267db k8s.io/kubernetes/pkg/kubelet.(*Kubelet).updateRuntimeUp+987 (/usr/local/bin/edgecore)
+	2055a46 k8s.io/kubernetes/pkg/kubelet.(*Kubelet).updateRuntimeUp-fm+38 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201c40e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).Run.dwrap.8+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+bin deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	1a33fd7 k8s.io/kubernetes/pkg/kubelet/container.(*RealOS).Remove+55 (/usr/local/bin/edgecore)
+	1f1008e k8s.io/kubernetes/pkg/kubelet/logs.(*containerLogManager).Clean+974 (/usr/local/bin/edgecore)
+	1f32275 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainerLog+85 (/usr/local/bin/edgecore)
+	1f32195 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainer+405 (/usr/local/bin/edgecore)
+	1f34899 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).removeOldestN+409 (/usr/local/bin/edgecore)
+	1f355f1 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).evictContainers+433 (/usr/local/bin/edgecore)
+	1f36c7d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).GarbageCollect+61 (/usr/local/bin/edgecore)
+	1f4227d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).GarbageCollect+29 (/usr/local/bin/edgecore)
+	1a2d462 k8s.io/kubernetes/pkg/kubelet/container.(*realContainerGC).GarbageCollect+98 (/usr/local/bin/edgecore)
+	201b1af k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.func1+79 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201b12e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.dwrap.1+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+boot deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	1a33fd7 k8s.io/kubernetes/pkg/kubelet/container.(*RealOS).Remove+55 (/usr/local/bin/edgecore)
+	1f1008e k8s.io/kubernetes/pkg/kubelet/logs.(*containerLogManager).Clean+974 (/usr/local/bin/edgecore)
+	1f32275 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainerLog+85 (/usr/local/bin/edgecore)
+	1f32195 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainer+405 (/usr/local/bin/edgecore)
+	1f34899 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).removeOldestN+409 (/usr/local/bin/edgecore)
+	1f355f1 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).evictContainers+433 (/usr/local/bin/edgecore)
+	1f36c7d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).GarbageCollect+61 (/usr/local/bin/edgecore)
+	1f4227d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).GarbageCollect+29 (/usr/local/bin/edgecore)
+	1a2d462 k8s.io/kubernetes/pkg/kubelet/container.(*realContainerGC).GarbageCollect+98 (/usr/local/bin/edgecore)
+	201b1af k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.func1+79 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201b12e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.dwrap.1+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+boot deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b84a8 os.Remove+168 (/usr/local/bin/edgecore)
+	1a33fd7 k8s.io/kubernetes/pkg/kubelet/container.(*RealOS).Remove+55 (/usr/local/bin/edgecore)
+	1f1008e k8s.io/kubernetes/pkg/kubelet/logs.(*containerLogManager).Clean+974 (/usr/local/bin/edgecore)
+	1f32275 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainerLog+85 (/usr/local/bin/edgecore)
+	1f32195 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainer+405 (/usr/local/bin/edgecore)
+	1f34899 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).removeOldestN+409 (/usr/local/bin/edgecore)
+	1f355f1 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).evictContainers+433 (/usr/local/bin/edgecore)
+	1f36c7d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).GarbageCollect+61 (/usr/local/bin/edgecore)
+	1f4227d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).GarbageCollect+29 (/usr/local/bin/edgecore)
+	1a2d462 k8s.io/kubernetes/pkg/kubelet/container.(*realContainerGC).GarbageCollect+98 (/usr/local/bin/edgecore)
+	201b1af k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.func1+79 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201b12e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.dwrap.1+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+boot deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b8445 os.Remove+69 (/usr/local/bin/edgecore)
+	1a33fd7 k8s.io/kubernetes/pkg/kubelet/container.(*RealOS).Remove+55 (/usr/local/bin/edgecore)
+	1f1008e k8s.io/kubernetes/pkg/kubelet/logs.(*containerLogManager).Clean+974 (/usr/local/bin/edgecore)
+	1f32275 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainerLog+85 (/usr/local/bin/edgecore)
+	1f32195 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainer+405 (/usr/local/bin/edgecore)
+	1f34899 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).removeOldestN+409 (/usr/local/bin/edgecore)
+	1f355f1 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).evictContainers+433 (/usr/local/bin/edgecore)
+	1f36c7d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).GarbageCollect+61 (/usr/local/bin/edgecore)
+	1f4227d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).GarbageCollect+29 (/usr/local/bin/edgecore)
+	1a2d462 k8s.io/kubernetes/pkg/kubelet/container.(*realContainerGC).GarbageCollect+98 (/usr/local/bin/edgecore)
+	201b1af k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.func1+79 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201b12e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.dwrap.1+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+boot deleted by command 'edgecore' with pid 55978 
+	48a9db syscall.Syscall.abi0+27 (/usr/local/bin/edgecore)
+	4b84a8 os.Remove+168 (/usr/local/bin/edgecore)
+	1a33fd7 k8s.io/kubernetes/pkg/kubelet/container.(*RealOS).Remove+55 (/usr/local/bin/edgecore)
+	1f1008e k8s.io/kubernetes/pkg/kubelet/logs.(*containerLogManager).Clean+974 (/usr/local/bin/edgecore)
+	1f32275 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainerLog+85 (/usr/local/bin/edgecore)
+	1f32195 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).removeContainer+405 (/usr/local/bin/edgecore)
+	1f34899 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).removeOldestN+409 (/usr/local/bin/edgecore)
+	1f355f1 k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).evictContainers+433 (/usr/local/bin/edgecore)
+	1f36c7d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*containerGC).GarbageCollect+61 (/usr/local/bin/edgecore)
+	1f4227d k8s.io/kubernetes/pkg/kubelet/kuberuntime.(*kubeGenericRuntimeManager).GarbageCollect+29 (/usr/local/bin/edgecore)
+	1a2d462 k8s.io/kubernetes/pkg/kubelet/container.(*realContainerGC).GarbageCollect+98 (/usr/local/bin/edgecore)
+	201b1af k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.func1+79 (/usr/local/bin/edgecore)
+	98a687 k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1+103 (/usr/local/bin/edgecore)
+	98a516 k8s.io/apimachinery/pkg/util/wait.BackoffUntil+182 (/usr/local/bin/edgecore)
+	98a409 k8s.io/apimachinery/pkg/util/wait.JitterUntil+137 (/usr/local/bin/edgecore)
+	98a345 k8s.io/apimachinery/pkg/util/wait.Until+37 (/usr/local/bin/edgecore)
+	201b12e k8s.io/kubernetes/pkg/kubelet.(*Kubelet).StartGarbageCollection.dwrap.1+46 (/usr/local/bin/edgecore)
+	4727a1 runtime.goexit.abi0+1 (/usr/local/bin/edgecore)
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+/var/lib/kubeedge/edgecore.db-journal deleted by command 'edgecore' with pid 55978 
+	7f6cbabc482b unlink+11 (/usr/lib64/libc.so.6)
+	6764656562756b2f 0x6764656562756b2f ([unknown])
+
+ ... whose parent is 'systemd' command with pid 1
+
+
